@@ -1,7 +1,7 @@
 import pandas as pd
-import numpy as np
-import scipy
-import sklearn
+#import numpy as np
+#import scipy
+#import sklearn
 import matplotlib.pyplot as plt
 
 
