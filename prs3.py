@@ -41,7 +41,7 @@ class RailStop:
         
 rstops = [];
 
-with fiona.open("portland-atlas/shp/trimet-rail-stops/tm_rail_stops.shp") as input:
+with fiona.open("newgisdata/tm_rail_stops.shp") as input:
      for item in input:
           rstops.append(RailStop(item))
 
@@ -76,7 +76,7 @@ class Neighborhood:
 
 nhoods = [];
 
-with fiona.open("portland-atlas/shp/neighborhoods/PortlandNeighborhoods/neighborhoods_pdx.shp") as input:
+with fiona.open("newgisdata/neighborhoods_pdx.shp") as input:
      for item in input:
           nhoods.append(Neighborhood(item))
 
